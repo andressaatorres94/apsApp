@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pf1"
+    tools:context=".Curso">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+        <TextView
+            android:id="@+id/tvCurso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvTitulo"
+            android:textSize="30sp"
+            android:textColor="#DB595959"
+            android:layout_gravity="center"
+            android:textStyle="bold"/>
+        <Spinner
+            android:id="@+id/spTurno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/spTurnos"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:id="@+id/etNomeCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etNomeCurso"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <EditText
+            android:id="@+id/etTurmaCurso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etTurma"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <EditText
+            android:id="@+id/etSala"
+            style="@style/formulario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:hint="@string/etSala"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/etHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/etHorario"
+            android:inputType="time"
+            android:layout_marginTop="15dp"
+            style="@style/formulario"/>
+
+        <Button
+            android:id="@+id/btnSalvarAluno"
+            android:layout_width="128dp"
+            android:layout_height="31dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:background="#00F0ECF4"
+            android:text="@string/btnSalvar"
+            android:textColor="#DB595959"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/navegationMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        app:itemBackground="@color/barraNavegacao"
+        app:itemIconTint="@drawable/selector"
+        app:itemTextColor="@drawable/selector"
+        app:menu="@menu/menu_buttom" />
+</RelativeLayout>

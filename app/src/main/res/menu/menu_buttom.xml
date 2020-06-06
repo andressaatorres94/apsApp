@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="@string/tituloHome"
+        android:id="@+id/navegation_inicio"
+        android:icon="@drawable/icone_home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:title="@string/tituloCursos"
+        android:id="@+id/navegation_curso"
+        android:icon="@drawable/ic_curso" />
+    <item
+        android:title="@string/tituloAlunos"
+        android:id="@+id/navegation_aluno"
+        android:icon="@drawable/ic_aluno"/>
+    <item
+        android:title="@string/titluloTurmas"
+        android:id="@+id/navegation_turma"
+        android:icon="@drawable/ic_turma"/>
+
+</menu>

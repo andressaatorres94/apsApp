@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">ApsApp</string>
+    <string name="tituloCursos">Cursos</string>
+    <string name="tituloHome">Home</string>
+    <string name="tituloAlunos">Alunos</string>
+    <string name="titluloTurmas">Turmas</string>
+
+
+    <string name="tvTitulo">Cadastro de Cursos</string>
+    <string name="tvTituloAluno">Cadastro de Alunos</string>
+
+    <string name="tvCodigoCurso">Codigo:</string>
+    <string name="etNomeCurso">Curso</string>
+    <string name="etTurma">Turma</string>
+    <string name="etSala">Sala</string>
+    <string name="etHorario">Horário</string>
+    <string name="btnSalvar">Salvar</string>
+    <string name="btnVoltar">Voltar</string>
+    <string name="tvMatriculaAlunos">Matricula:</string>
+    <string name="etNomeAluno">Nome do Aluno</string>
+    <string name="etEnderecoAluno">Endereço</string>
+    <string name="etTelefoneAluno">Telefone</string>
+    <string name="tvCodigoAlunos">0</string>
+    <string name="tvCodigo">0</string>
+
+    <string-array name="spTurnos">
+        <item>Selecione turno do curso...</item>
+        <item>Manha</item>
+        <item>Tarde</item>
+        <item>Noite</item>
+
+    </string-array>
+
+    <string-array name="spTurma">
+        <item>Selecione turma do aluno...</item>
+        <item>...</item>
+        <item>...</item>
+        <item>...</item>
+
+    </string-array>
+</resources>
